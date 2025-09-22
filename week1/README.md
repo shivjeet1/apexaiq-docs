@@ -100,4 +100,14 @@
       - **Response:** The SOAR platform creates an incident ticket, logs all the automated actions, and presents a complete report to the security analyst. The analyst can then quickly verify the actions, add notes, and officially close the incident.
        
 25. **Role of ITAM in Zero Trust Security Models**: That's an excellent and very relevant question. The role of **IT Asset Management (ITAM)** is not just important in a Zero Trust security model—it's absolutely foundational.
+
 26. **Cyber Asset Attack Surface Management (CAASM)**: CAASM is an emerging approach in cybersecurity that helps organizations see and manage their entire collection of digital assets to identify security gaps and reduce their attack surface.
+
+27. **Accelerator**: An accelerator is a tool, framework, or pre-written code component that helps developers build software faster. Its main purpose is to handle common, repetitive tasks so that developers can focus on writing unique, high-value business logic.
+
+28. **Audits**: An audit is a systematic and independent examination of a company's books, accounts, records, or systems to ascertain how far they comply with established standards, rules, or laws.
+
+29. **Crawl job**: A crawl job is a task given to an automated program, called a crawler or spider, to systematically browse and index content on the internet or within a specific network.
+
+30. **MDM (Master Data Management)**: Master Data Management solves this by creating a central hub that cleans, standardizes, and syncs this master data across the entire organization, ensuring everyone is working from the same, accurate information.
+
