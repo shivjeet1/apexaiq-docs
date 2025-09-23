@@ -77,7 +77,7 @@
       - **HIPPA**: HIPPA(Health Insurance Portability and Accountability Act)is US federal law that sets a national standard for protecting sensitive patient health information (PHI) from being disclosed without the patient's consent or knowledge.
       - **ISO 27001**: This **is a compliance standard**. It's the leading international standard for managing information security.
 
-19. **Perimeter**: The **perimeter** is the boundary or the total distance around the outside of a two-dimensional shape.
+19. **Perimeter**: Perimeter security in cybersecurity refers to the process of defending a company’s network boundaries from hackers, intruders, and other unwelcome individuals.
 
 20. **ROI and KPI**: **ROI** measures the profitability of an investment, while a **KPI** measures the performance of a specific business objective.
 
