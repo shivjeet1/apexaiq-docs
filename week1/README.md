@@ -99,7 +99,7 @@
          - It adds the malicious link to a blocklist.
       - **Response:** The SOAR platform creates an incident ticket, logs all the automated actions, and presents a complete report to the security analyst. The analyst can then quickly verify the actions, add notes, and officially close the incident.
        
-25. **Role of ITAM in Zero Trust Security Models**: That's an excellent and very relevant question. The role of **IT Asset Management (ITAM)** is not just important in a Zero Trust security model—it's absolutely foundational.
+25. **Role of ITAM in Zero Trust Security Models**: The role of **IT Asset Management (ITAM)** is not just important in a Zero Trust security model—it's absolutely foundational.
 
 26. **Cyber Asset Attack Surface Management (CAASM)**: CAASM is an emerging approach in cybersecurity that helps organizations see and manage their entire collection of digital assets to identify security gaps and reduce their attack surface.
 
