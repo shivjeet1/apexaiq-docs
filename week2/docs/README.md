@@ -6,8 +6,3 @@
 
 ### 1. Object Oriented Programming
    - **Abstraction** 
-   - **Encapsulation**
-   - **Inheritance**
-   - **Polymorphism**
-
-
