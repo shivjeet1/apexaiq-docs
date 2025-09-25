@@ -1,2 +1,3 @@
-_site*
+_sit*
+.jekyll-cach*_
 *.lock
