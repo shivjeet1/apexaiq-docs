@@ -3,7 +3,7 @@ name: Deploy ApexaiQ Docs to Pages
 on:
   push:
     tags:
-      - "deploy"
+      - "deploy.*"
 
   workflow_dispatch:
 
