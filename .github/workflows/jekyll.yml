@@ -2,7 +2,7 @@ name: Deploy ApexaiQ Docs to Pages
 
 on:
   push:
-    branches:["master"]
+    branches: ["master"]
 
 
   workflow_dispatch:
