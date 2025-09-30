@@ -2,8 +2,7 @@
 # Python Documentation
 ---
 
-# Python Concepts
-
+## Python Concepts
 
 ### Syntax, Variables & Datatypes
 -   **Syntax**: The rules of the language. Get it right, or the code won't run.
@@ -113,6 +112,40 @@
    - **Built-in Packages:** Already available. eg. `os, sys, math, datetime`.
    - **Third Party Packages:** Created by community, installed via `pip`. eg. `requests, numpy, pandas, flask`
    - **User-Defined packages:** Custom packages created for a project. eg. our own folder with `__init__.py` and multiple `.py` files.
+
+---
+
+## Virtual Environment
+   1. Create a Virtual Environment:
+    ```bash
+    python -m venv <NameYourVenv>
+    ```
+   2. Activate Virtual Environment:
+    ```bash
+    source <NameYourVenv>/bin/activate 
+    ```
+   3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Coding Standards
+
+-   **Naming Convention**: Write clean, readable names. `snake_case` for variables and functions, `PascalCase` for classes.
+-   **Docstring**: Explain the *purpose* of a function, module, or class. Use `"""Triple quotes"""` right after the definition.
+-   **Comments**: Explain the *how* or the *why* for complex or non-obvious lines of code. Use `#`.
+-   **Types of Testing**:
+    -   **Unit Test**: Tests a single component or function in isolation.
+    -   **Integration Test**: Tests how multiple components work together.
+    -   **End-to-End Test**: Tests the entire application flow from start to finish.
+-   **PEP8**: Python's official style guide. Follow it for consistent, readable code.
+-   **SOLID & DRY**:
+    -   **DRY (Don't Repeat Yourself)**: Every piece of knowledge must have a single, unambiguous representation within a system. Avoid copy-pasting code.
+    -   **SOLID**: Five design principles for creating understandable, flexible, and maintainable software.
+
+---
 
 
 
