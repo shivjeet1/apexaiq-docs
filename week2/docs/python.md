@@ -17,6 +17,15 @@
     -   `dict`: Unordered collection of key-value pairs. `{"key": "value", "id": 123}`.
     -   `set`: Unordered collection of unique items. `{1, 2, 3}`.
 
+### List/Dictionary Comprehension
+-   **Purpose**: A short, elegant syntax for creating a list or dictionary from an existing iterable.
+-   **Syntax**:
+    ```python
+    # List comprehension
+    squares = [x*x for x in range(10)]
+    # Dictionary comprehension
+    square_dict = {x: x*x for x in range(10)}
+    ```
 
 ### Conditional Statements (if-elif-else)
 -   **Purpose**: Make decisions in your code. "If this is true, do this; otherwise, do that."
@@ -29,7 +38,6 @@
     else:
         # run if nothing above was true
     ```
-
 
 ### Loops (for, while)
 -   **Purpose**: Repeat a block of code.
@@ -47,6 +55,10 @@
     ```
 -   **`break`**: Immediately exit the current loop.
 -   **`continue`**: Skip the rest of the current iteration and move to the next.
+
+### Iterators & Generators
+-   **Iterator**: An object that allows you to traverse a container one element at a time.
+-   **Generator**: A simpler way to create iterators using a function with the `yield` keyword. It produces items one by one, saving memory.
 
 ### Functions
 -   **Purpose**: A named, reusable block of code that performs a specific task.
@@ -72,12 +84,13 @@
    - **Purpose**: A paradigm to structure code around "objects" (data and functions) instead of just functions and logic.
    - **`class`**: A blueprint for creating objects.
    - **`object`**: An instance of a class.
-   - **Abstraction**
-   - **Class**
-   - **Encapsulation**
-   - **Inheritance**
-   - **Object**
-   - **Polymorphism**
+   - **Pillars of OOP**:
+     - Abstraction
+     - Class
+     - Encapsulation
+     - Inheritance
+     - Object
+     - Polymorphism
 
 ### Exception Handling
 -   **Purpose**: Manage errors without crashing the program.
@@ -95,7 +108,12 @@
     ```
 
 ### Packages
-   - **Module**
-   - **Package**
-   - **Sub-packages**
-   - 
+   A package is a collection of Python modules organized in directories with an ```__init__.py``` file.
+   It helps in code organization, reusability and modularity.
+   - **Built-in Packages:** Already available. eg. `os, sys, math, datetime`.
+   - **Third Party Packages:** Created by community, installed via `pip`. eg. `requests, numpy, pandas, flask`
+   - **User-Defined packages:** Custom packages created for a project. eg. our own folder with `__init__.py` and multiple `.py` files.
+
+
+
+
