@@ -147,6 +147,31 @@
 
 ---
 
+## API [Application Programming Interface]
 
+-   **API**: A contract that allows two separate software systems to communicate and exchange data.
+-   **Types of APIs**: Different architectural styles. Common ones include **REST**, **SOAP**, and **GraphQL**.
+-   **HTTP Status Codes**: Server responses indicating the result of a request.
+    -   `2xx` (e.g., `200 OK`): Success.
+    -   `4xx` (e.g., `404 Not Found`): Client-side error. You did something wrong.
+    -   `5xx` (e.g., `500 Internal Server Error`): Server-side error. They did something wrong.
+-   **Response Formats**: The data structure of the response. **JSON** is the modern standard.
+-   **Types of API Authentication**: Methods to prove identity. Common types are **API Keys**, **OAuth 2.0**, and **JWT (JSON Web Tokens)**.
+-   **Versioning**: A way to manage changes to an API without breaking existing client applications (e.g., `/api/v1/...`).
+-   **CRUD Operations**: The four fundamental functions of persistent storage.
+    -   **C**reate -> `POST`
+    -   **R**ead -> `GET`
+    -   **U**pdate -> `PUT` / `PATCH`
+    -   **D**elete -> `DELETE`
+-   **Optimization**: Techniques to improve API performance, like **caching**, **rate limiting**, and **payload compression**.
+-   **`requests` Library**: The standard Python library for making HTTP requests to APIs.
 
+---
+
+## Extra Topics
+
+-   **SDLC (Software Development Life Cycle)**: A framework defining the process for building and maintaining software, from initial planning to final decommissioning. Steps include Planning, Design, Development, Testing, Deployment, and Maintenance.
+-   **Agile Basics**: An iterative approach to project management and software development that helps teams deliver value faster and with fewer headaches.
+-   **Version Control (Git)**: A system that records changes to a file or set of files over time so that you can recall specific versions later. Essential for collaboration and sanity.
+-   **Software Architecture**: The high-level structure of a software system and the discipline of creating such structures. It's the blueprint for the system. Types: Monolithic, Microservices, Layered(N-tier), Event Driven and Service Oriented.
 
