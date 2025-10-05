@@ -1,12 +1,12 @@
+
 import datetime
 
 class EmptyFundsError(Exception):
     def __init__(self, balance, a_to_withdraw):
         self.balance = balance
-        self.a_to_withdraw=a_to_withdraw
-
+        self.a_to_withdraw = a_to_withdraw
         super().__init__(
-        f"Withdrawal Failed: Attempted to withdraw {a_to_withdraw}, but only {balance} is available."
+            f"Withdrawal Failed: Attempted to withdraw {a_to_withdraw}, but only {balance} is available."
         )
 
 class Money:
@@ -26,22 +26,22 @@ class Money:
     def __add__(self, other):
         if not isinstance(other, Money):
             return NotImplemented
-        return Money(self._value +other.get_value())
+        return Money(self._value + other.get_value())
 
     def __sub__(self, other):
         if not isinstance(other, Money):
             return NotImplemented
-        return Money(self._value -other.get_value())
+        return Money(self._value - other.get_value())
 
-    def __lt__(self,other):
+    def __lt__(self, other):
         if not isinstance(other, Money):
             return NotImplemented
-        return self._value <other.get_value()
+        return self._value < other.get_value()
 
 class AccountHolder:
     def __init__(self, name):
         if not name or not isinstance(name, str):
-            raise ValueError("Account holder name must be a non-empth string.")
+            raise ValueError("Account holder name must be a non-empty string.")
         self._name = name
 
     def __str__(self):
@@ -53,7 +53,6 @@ class TransactionLogger:
         self._file_handle = open(self._filename, 'a', encoding='utf-8')
         self.log(f"--- Log Session Started: {datetime.datetime.now():%Y-%m-%d %H:%M:%S} ---")
 
-
     def log(self, message):
         timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         log_entry = f"[{timestamp}] {message}"
@@ -62,7 +61,7 @@ class TransactionLogger:
         self._file_handle.flush()
 
     def close(self):
-        self.log("--- Log Session Ended --")
+        self.log("--- Log Session Ended ---")
         self._file_handle.close()
 
 class BankAccount:
@@ -77,14 +76,12 @@ class BankAccount:
             self._logger.log("ERROR: Deposit amount must be a Money Object.")
             return
         self._balance = self._balance + amount_obj
-        self._logger.log(f"Deposit successful, Amount: {amount_obj}, New Balance: {self._balance}.")
-
+        self._logger.log(f"Deposit successful. Amount: {amount_obj}. New Balance: {self._balance}.")
 
     def withdraw(self, amount_object):
         if not isinstance(amount_object, Money):
             self._logger.log("ERROR: Withdrawal amount must be a Money object.")
             return
-
         if amount_object < self._balance or amount_object.get_value() == self._balance.get_value():
             self._balance = self._balance - amount_object
             self._logger.log(f"Withdrawal successful. Amount: {amount_object}. New Balance: {self._balance}.")
@@ -93,36 +90,63 @@ class BankAccount:
             raise EmptyFundsError(self._balance, amount_object)
 
     def check_balance(self):
-        """Logs the current account balance."""
         self._logger.log(f"Balance check for '{self._owner}': {self._balance}")
         return self._balance
 
-if __name__ == "__main__":
-    output_filename="bankop.txt"
-    logger=TransactionLogger(output_filename)
+def get_numeric_input(prompt):
+    while True:
+        try:
+            value_str = input(prompt)
+            value = float(value_str)
+            if value < 0:
+                print("Value cannot be negative. Please try again.")
+                continue
+            return value
+        except ValueError:
+            print("Invalid input. That doesn't look like a number. Please try again.")
 
+if __name__ == "__main__":
+    output_filename = "bankop.txt"
+    logger = TransactionLogger(output_filename)
+
+    print("--- Welcome to the OOP Bank Application ---")
+    my_account = None
     try:
-        account_holder = AccountHolder("Shivam Lavhale")
-        initial_deposit = Money(10000)
+        name_input = input("Please enter the account holder's name: ")
+        initial_deposit_input = get_numeric_input("Please enter the initial deposit amount: $")
+
+        account_holder = AccountHolder(name_input)
+        initial_deposit = Money(initial_deposit_input)
         my_account = BankAccount(account_holder, initial_deposit, logger)
 
-        my_account.check_balance()
+        while True:
+            print("\n" + "="*30)
+            print("Please select an option:")
+            print("  1. Deposit Funds\n  2. Withdraw Funds\n  3. Check Balance\n  4. Exit")
+            print("="*30)
+            choice = input("Enter your choice (1-4): ")
 
-        logger.log("\n--- Performing a deposit ---")
-        deposit_amount = Money(1500)
-        my_account.deposit(deposit_amount)
+            try:
+                if choice == '1':
+                    deposit_val = get_numeric_input("Enter amount to deposit: $")
+                    my_account.deposit(Money(deposit_val))
+                elif choice == '2':
+                    withdraw_val = get_numeric_input("Enter amount to withdraw: $")
+                    my_account.withdraw(Money(withdraw_val))
+                elif choice == '3':
+                    my_account.check_balance()
+                elif choice == '4':
+                    break
+                else:
+                    print("Invalid choice. Please select a valid option.")
+            except EmptyFundsError as e:
+                logger.log(f"TRANSACTION FAILED: {e}")
 
-        logger.log("\n--- Attempting a withdrawal with insufficient funds ---")
-        overdraft_amount = Money(2000)
-        my_account.withdraw(overdraft_amount)
-
-    except (EmptyFundsError, ValueError, TypeError) as e:
-        logger.log(f"OPERATION HALTED DUE TO ERROR: {e}")
-
+    except (ValueError, TypeError) as e:
+        logger.log(f"SETUP FAILED: {e}")
     finally:
-        logger.log("\nAll Operations Completed successfully")
+        logger.log("\nApplication session ending.")
         logger.close()
         print(f"\nFull transaction log has been saved to '{output_filename}'")
-
 
 
