@@ -1,0 +1,7 @@
+[2025-10-06 11:47:43] --- Log Session Started: 2025-10-06 11:47:43 ---
+[2025-10-06 11:47:55] Account created for 'shivam' with initial balance of $1,000.00.
+[2025-10-06 11:48:07] Deposit successful. Amount: $5,000.00. New Balance: $6,000.00.
+[2025-10-06 11:48:15] Withdrawal successful. Amount: $3,000.00. New Balance: $3,000.00.
+[2025-10-06 11:48:24] 
+Application session ending.
+[2025-10-06 11:48:24] --- Log Session Ended ---

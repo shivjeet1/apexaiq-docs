@@ -70,3 +70,15 @@ class Library:
             for book_id, member_id in self._borrowed_books.items():
                 print(f"- {self._books[book_id]} (By: {self._members[member_id].name})")
         print("----------------------")
+
+    @log_activity
+    def display_members(self):
+        """Displays a list of all registered members."""
+        print("\n--- Registered Members ---")
+        if not self._members:
+            print("No members are currently registered.")
+        else:
+            for member in self._members.values():
+                print(f"- {member}")
+        print("--------------------------")
+

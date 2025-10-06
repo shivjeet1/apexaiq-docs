@@ -13,15 +13,15 @@ def main():
         my_library.add_book(Book("Hidden Hindu", "Akshad Gupta", "B001"))
         my_library.add_book(Book("The War of Art", "Steven Press Field", "B002"))
         my_library.add_book(Book("Factfullness", "Hans Rosling", "B003"))
-        my_library.add_book(Book("The Alchemist", "Paulo Coelho", "M01"))
+        my_library.add_book(Book("The Alchemist", "Paulo Coelho", "B004"))
         my_library.add_member(Member("Piyanshu Kale", "M01"))
         my_library.add_member(Member("Aditya Dhengre", "M03"))
     
         while True:
             print("\n===== Library Management System =====")
-            print("1. Borrow a Book\n2. Return a Book\n3. Show Available Books\n4. Show Borrowed Books\n5. Exit")
+            print("1. Borrow a Book\n2. Return a Book\n3. Show Available Books\n4. Show Borrowed Books\n5. Show Available members\n6. Exit")
             print("===================================")
-            choice = input("Enter your choice (1-5): ")
+            choice = input("Enter your choice (1-6): ")
 
             try:
                 if choice == '1':
@@ -36,6 +36,8 @@ def main():
                 elif choice == '4':
                     my_library.display_borrowed_books()
                 elif choice == '5':
+                    my_library.display_members()
+                elif choice == '6':
                     break
                 else:
                     print("Invalid choice. Please enter a number between 1 and 5.")
