@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "WEEK2 Documentation"
 # Python Documentation
 ---
 
