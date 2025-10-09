@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "WEEK1 Documentation"
 ### This Readme consists all the tasks required to be completed before the end of [WEEK1]
 ---
 # ApexaiQ 
