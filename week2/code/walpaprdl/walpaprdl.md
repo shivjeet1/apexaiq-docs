@@ -1,3 +1,9 @@
+---
+layout: default
+title: "WEEK3 Documentation"
+### This Readme consists all the tasks required to be completed before the end of [WEEK3]
+---
+
 # Wallhaven Wallpaper Downloader
 
 - This Documentation provides steps to be followed for setup and running of walpaprdl.py script, a command-line tool for downloading wallpapers from [wallhaven.cc](wallhaven.cc)
