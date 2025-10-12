@@ -4,7 +4,7 @@ title: "WEEK2 Documentation"
 # Python Documentation
 ---
 
-## Python Concepts
+# Python Concepts
 
 ### Syntax, Variables & Datatypes
 -   **Syntax**: The rules of the language. Get it right, or the code won't run.
