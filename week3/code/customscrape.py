@@ -20,7 +20,7 @@ class DbfNewsScraper:
         self.driver = None
 
     def _generate_file_path(self) -> str:
-        file_name = "dbf2002_news_releases_with_main_link.csv"
+        file_name = "custom-scrapped-data.csv"
         os.makedirs(self.output_dir, exist_ok=True)
         return os.path.join(self.output_dir, file_name)
 
