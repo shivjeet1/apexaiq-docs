@@ -96,3 +96,33 @@ header nav a:hover {
 footer p {
     margin: 0;
 }
+
+div.highlight {
+    position: relative; 
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 8px;
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 0.8em;
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+}
+
+div.highlight:hover .copy-button {
+    opacity: 1; 
+}
+
+.copy-button:hover {
+    background-color: #444;
+}
+
+
