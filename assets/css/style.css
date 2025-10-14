@@ -1,0 +1,98 @@
+/*
+Arch-minimalist Jekyll Theme CSS
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #e0e0e0;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #333;
+    margin: 2em 0;
+}
+
+pre {
+    background-color: #1a1a1a;
+    padding: 1em;
+    overflow-x: auto;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #1a1a1a;
+    padding: 0.2em 0.4em;
+    font-size: 0.9em;
+}
+
+blockquote {
+    border-left: 3px solid #555;
+    padding-left: 1em;
+    margin-left: 0;
+    color: #aaaaaa;
+    font-style: italic;
+}
+
+header, footer {
+    text-align: center;
+    margin-top: 3em;
+    padding: 1em 0;
+    border-top: 1px dashed #333;
+    font-size: 0.8em;
+    color: #888;
+}
+
+header nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
