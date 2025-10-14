@@ -8,7 +8,6 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 OUTPUT_DIR = "../output/"
 
 class WebScraper:
@@ -16,7 +15,6 @@ class WebScraper:
         self.target_url = url
         self.output_dir = output_directory
         self.file_path = self._generate_file_path()
-
         self.driver = None
 
     def _generate_file_path(self) -> str:
@@ -35,7 +33,7 @@ class WebScraper:
                 return tables
             else:
                 print("No tables found by pandas.read_html().")
-                return None 
+                return None
         except Exception as e:
             print(f"Could not use pandas.read_html(): {e}. Falling back to Selenium.")
             return None
@@ -51,17 +49,17 @@ class WebScraper:
         print(f"Navigating to {self.target_url}...")
         self.driver.get(self.target_url)
         
-        print("Waiting for tables with class 'wikitable' to load...")
+        print("Waiting for tables with XPath matching the 'wikitable' class to load...")
         try:
             WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "wikitable"))
+                EC.presence_of_element_located((By.XPATH, "//*[contains(@class, 'wikitable')]"))
             )
         except TimeoutException:
-            print("Timeout: No elements with class 'wikitable' found after 10 seconds.")
+            print("Timeout: No elements matching the XPath found after 10 seconds.")
             return []
 
         print("Scraping data from all found tables...")
-        table_elements = self.driver.find_elements(By.CLASS_NAME, "wikitable")
+        table_elements = self.driver.find_elements(By.XPATH, "//*[contains(@class, 'wikitable')]")
         
         dfr = []
         for i, table_element in enumerate(table_elements):
@@ -72,7 +70,6 @@ class WebScraper:
             
         return dfr
 
-    
     def _save_concatenated_csv(self, dataframes: list[pd.DataFrame] | None):
         if not dataframes:
             print("No dataframes found to save.")
@@ -84,7 +81,7 @@ class WebScraper:
         
         for i, df in enumerate(dataframes):
             if i >= 0:
-                all_tables_to_combine.append(pd.DataFrame([[]])) 
+                all_tables_to_combine.append(pd.DataFrame([[]]))
                 heading = f"--- Table {i + 1} ---"
                 all_tables_to_combine.append(pd.DataFrame([heading]))
 
@@ -103,7 +100,6 @@ class WebScraper:
             print("Closing the browser.")
             self.driver.quit()
 
-    
     def run(self):
         scraped_dfs = None
         try:
@@ -117,7 +113,7 @@ class WebScraper:
 
 def main():
     try:
-        target_url = ""
+        target_url = "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info"
         while not target_url:
             user_input = input(f"Enter full URL to scrape : ): ")
             target_url = user_input.strip()
@@ -134,6 +130,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
 
