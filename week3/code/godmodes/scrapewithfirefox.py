@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-OUTPUT_DIR = "../output/"
+OUTPUT_DIR = "../../output/"
 
 class WebScraper:
     def __init__(self, url: str, output_directory: str):
