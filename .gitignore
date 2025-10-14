@@ -3,5 +3,5 @@ _sit*
 topicw2
 *.lock
 jad*
-week3/output/*
+week3/output/.*
 
