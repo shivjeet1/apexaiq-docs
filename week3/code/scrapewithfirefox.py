@@ -16,9 +16,8 @@ class WebScraper:
 
     def _generate_file_path(self) -> str:
         parsed_url = urlparse(self.target_url)
-        website_name = parsed_url.netloc.replace("www.", "")
         path_part = parsed_url.path.replace('/', '_').strip('_')
-        file_name = f"{website_name}_{path_part}.csv"
+        file_name = f"{path_part}.csv"
         os.makedirs(self.output_dir, exist_ok=True)
         return os.path.join(self.output_dir, file_name)
 
@@ -94,3 +93,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
