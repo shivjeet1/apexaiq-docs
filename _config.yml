@@ -1,0 +1,33 @@
+title: ApexaiQ Documentation
+author: Shivam Lavhale
+description: "My weekly documentation and projects created during my time at ApexaiQ."
+url: "https://shivjeet1.github.io"
+baseurl: ""
+
+github_username: shivjeet1
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - jadu
+  - topicw2
+  - requirements.txt
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
