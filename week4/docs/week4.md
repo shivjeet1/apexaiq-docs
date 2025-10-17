@@ -141,6 +141,8 @@ The installation was successful, you will see a message beginning with "Hello fr
 ***Output***
 - ![docker-output](../../assets/images/docker.png)
 
+---
+
 ## Kubernetes Documentation
 
 ### What is [Kubernetes](https://cloud.google.com/kubernetes-engine)?
@@ -245,7 +247,7 @@ A K8s cluster consists of a **Master Node** (the brain) and multiple **Worker No
 **Container Runtime**
 : The software responsible for running containers (e.g., Docker).
 
-
+---
 
 
 
