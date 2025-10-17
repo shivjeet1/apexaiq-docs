@@ -12,35 +12,44 @@ title: "Walpaprdl installation steps"
 
 - Clone the Repository:
     ```bash
-        git clone https://github.com/shivjeet1/apexaiq-docs.git
+    git clone https://github.com/shivjeet1/apexaiq-docs.git
+    ```
 - Navigate to 'walpaprdl':
     ```bash
-        cd apexaiq-docs/week2/code/walpaprdl
+    cd apexaiq-docs/week2/code/walpaprdl
+    ```
 
 ### Steps to Run 'walpaprdl'
 
 1. Create a venv:
     ```bash
-        python -m venv wal 
+       python -m venv wal 
+    ```
 
 2. Activate your venv:
     - Linux
         ```bash
             source wal/bin/activate
+        ```
+
     - Windows
         ```cmd
             .\wal\Scripts\activate
+        ```
 
 3. Install dependencies:
     ```bash
         pip install -r requirements.txt
+    ```
 
 4. Run walpaprdl:
     ```bash
         python walpaprdl.py 
+    ```
 
 5. Deactivate your venv:
     ```bash
         deactivate 
+    ```
 
 
