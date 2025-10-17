@@ -68,7 +68,7 @@ Docker refers to these Sandboxed environments as conatiners.
 
 #### 1. Update Your System
 
-First, ensure your system's package database is up-to-date. Open your terminal and run:
+First, ensure system's package database is up-to-date. Open your terminal and run:
 ~~~
 sudo pacman -Syyu
 ~~~
@@ -141,9 +141,109 @@ The installation was successful, you will see a message beginning with "Hello fr
 ***Output***
 - ![docker-output](../../assets/images/docker.png)
 
-## 
+## Kubernetes Documentation
+
+### What is [Kubernetes](https://cloud.google.com/kubernetes-engine)?
+
+K8s is a portable, extensible, open-source platform for managing containerized workloads and services.
+
+**Origin**
+: The name "Kubernetes" is Greek for "helmsman" or "pilot," which is why the logo is a ship's steering wheel.
+
+**Open Source**
+: It was originally designed by Google and is now maintained by the CNCF.
+
+**Technology**
+: It is written in the Go programming language (Golang).
+
+**Purpose**
+: To automate the deployment, scaling, and management of containerized applications.
 
 
+### Why [Kubernetes](https://cloud.google.com/kubernetes-engine)?
+
+Docker is great for managing individual containers, but challenges arise when dealing with them at scale.
+
+Common Problems with Docker at Scale:
+
+* Manual management and maintenance
+* Handling upgrades and migrations
+* Autoscaling based on demand
+* Avoiding downtime
+
+K8s is a Container Management Tool designed to solve these problems. It helps with:
+
+* Deploying
+* Scheduling
+* Scaling
+* Load balancing
+* Batch execution
+* Rollbacks
+* Monitoring
+
+Other container orchestration tools include Docker Swarm and Apache Mesos.
+
+
+## Kubernetes Features
+{: #k8s-features}
+
+Storage Orchestration
+: Automatically mount storage systems.
+
+Secret and Configuration Management
+: Manage sensitive information like passwords and API keys.
+
+Automatic Bin Packing
+: Optimizes resource usage by placing containers based on their requirements.
+
+Self-healing
+: Restarts failed containers, replaces and reschedules containers when nodes die.
+
+Automated Rollouts and Rollbacks
+: Automates application updates and can revert to previous versions if something goes wrong.
+
+Service Discovery and Load Balancing
+: Exposes containers using DNS names or IP addresses and distributes network traffic.
+
+---
+
+## Kubernetes Architecture
+{: .architecture-section}
+
+A K8s cluster consists of a **Master Node** (the brain) and multiple **Worker Nodes** (the hands).
+
+### Pods
+
+- The **smallest deployable unit** in K8s. It acts as a wrapper for one or more containers that share resources like the network and storage.
+
+### Master Node (Control Plane)
+
+ - The Master Node manages the **state of the cluster**. Its main components are:
+
+**Kube-API Server**
+: - The entry point for all cluster management commands. It authenticates and validates requests before processing them.
+
+**etcd**
+: - A reliable key-value store that holds all cluster data and state.
+
+**Kube Scheduler**
+: - Watches for newly created pods and assigns them to a suitable Worker Node.
+
+**Controller Manager**
+: - Runs various controllers (like the Node Controller and Replication Controller) to maintain the desired state of the cluster.
+
+### **Worker Nodes**
+
+- Worker Nodes are the machines where the actual applications run. Their main components are:
+
+**Kubelet**
+: An **agent** that runs on each worker node. It communicates with the API server and ensures that containers are running and healthy.
+
+**Kube Proxy**
+: Manages network rules on nodes, enabling communication between pods.
+
+**Container Runtime**
+: The software responsible for running containers (e.g., Docker).
 
 
 
