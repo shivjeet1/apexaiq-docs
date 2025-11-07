@@ -12,3 +12,4 @@ title: Home
     * [Walpaprdl Installation Steps](./week2/code/walpaprdl/walpaprdl.html)
 * [WEEK 3 Documentation](./week3/docs/week3.html)
 * [WEEK 4 Documentation](./week4/docs/week4.html)
+    * [WEEK 4 Project Usage](./week4/code/docker.html)
