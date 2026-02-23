@@ -1,15 +1,24 @@
 ---
 layout: default
-title: Home
+title: home
 ---
 
-# Welcome! I made this Jekyll based site.
+# ApexaiQ internship
 
-### My weekly Documentations done while in ApexaiQ are given below
+My docs and scripts from the internship.
 
-* [WEEK 1 Documentation](./week1/week1.html)
-* [WEEK 2 Documentation](./week2/docs/week2.html)
-    * [Walpaprdl Installation Steps](./week2/code/walpaprdl/walpaprdl.html)
-* [WEEK 3 Documentation](./week3/docs/week3.html)
-* [WEEK 4 Documentation](./week4/docs/week4.html)
-    * [WEEK 4 Project Usage](./week4/code/docker.html)
+## third year
+
+* [week 1 docs](./content/third_year/week1/week1.html)
+
+
+## second year
+
+* [week 1 docs](./content/second_year/week1/week1.html)
+* [week 2 docs](./content/second_year/week2/docs/week2.html)
+  * [walpaprdl setup](./content/second_year/week2/code/walpaprdl/walpaprdl.html)
+* [week 3 docs](./content/second_year/week3/docs/week3.html)
+* [week 4 docs](./content/second_year/week4/docs/week4.html)
+  * [week 4 docker usage](./content/second_year/week4/code/docker.html)
+
+
