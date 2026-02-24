@@ -18,7 +18,8 @@ My docs and scripts from the internship.
 * [week 2 docs](./content/second_year/week2/docs/week2.html)
   * [walpaprdl setup](./content/second_year/week2/code/walpaprdl/walpaprdl.html)
 * [week 3 docs](./content/second_year/week3/docs/week3.html)
+  * [selenium usage](./content/second_year/week3/code/godmodes/webscraper.html)
 * [week 4 docs](./content/second_year/week4/docs/week4.html)
-  * [week 4 docker usage](./content/second_year/week4/code/docker.html)
+  * [docker usage](./content/second_year/week4/code/docker.html)
 
 
