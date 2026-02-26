@@ -3,16 +3,16 @@ layout: default
 title: home
 ---
 
-# ApexaiQ internship
+# ApexaiQ Internship
 
 My docs and scripts from the internship.
 
-## third year
+## Third year
 
 * [week 1 docs](./content/third_year/week1/week1.html)
 
 
-## second year
+## Second year
 
 * [week 1 docs](./content/second_year/week1/week1.html)
 * [week 2 docs](./content/second_year/week2/docs/week2.html)
