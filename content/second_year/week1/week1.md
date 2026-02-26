@@ -3,6 +3,7 @@ layout: default
 title: "WEEK1 Documentation"
 ### This Readme consists all the tasks required to be completed before the end of [WEEK1]
 ---
+
 # ApexaiQ 
 - Clean, Auditable Inventory
 - Prioritize what maters
@@ -39,6 +40,7 @@ title: "WEEK1 Documentation"
 - SMI
 
 # Some Terminologies
+
 1. **Agentless Platform**: Agentless security is a technique that secures networks and endpoints without the need for software agents. By leveraging existing infrastructure and protocols, agentless security provides a holistic view of the network, enabling better threat detection and response.
 
 2. **ApexaiQ Score**: ApexaiQ risk score to measure and improve your security posture continuously on the scale of 60-180.
