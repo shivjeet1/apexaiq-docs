@@ -18,38 +18,6 @@ Most companies have a "Visibility Gap." The Cloud team, Security team, and IT te
 | **Technical Debt:** Old servers (like Windows 2008) that are risky but still running. | **SLA Liability:** Getting blamed if a client is hacked because of a missed patch. |
 | **Asset Hygiene:** Devices missing basic security like EDR or proper patches. | **Engineer Burnout:** Constant firefighting instead of doing actual work. |
 
----
-
-### Core Research Topics
-
-**1. Cyber Assets & Discovery**
-* **Cyber Asset:** Anything with an IP or login—Laptops, S3 buckets, or User IDs.
-* **Asset Discovery:** Finding what's on the network.
-* **Attack Surface:** The total number of points where a hacker can enter.
-
-**2. Vulnerabilities & Remediation**
-* **CVE:** Unique ID for a bug.
-* **CPE:** Standard name for software/hardware.
-* **Remediation:** Actually fixing the bug (usually by patching).
-* **Non-CVE Vulns:** Risks without an ID, like weak passwords or out-of-date (EOL) software.
-* **CVSS (Common Vulnerability Scoring System):** The standard 0-10 score. Note: A "10" is bad, but it doesn't mean it’s being hacked *right now*.
-* **EPSS (Exploit Prediction Scoring System):** A probability score (0 to 1) that predicts if a bug will be exploited in the next 30 days. High EPSS is often more urgent than a high CVSS.
-* **CISA KEV (Known Exploited Vulnerabilities):** The US Govt's "Must-Fix" list. If a bug is on this list, it means hackers are already using it in the wild.
-* **SSVC (Stakeholder-Specific Vulnerability Categorization):** A decision tree used to decide action based on how much the asset matters to the business.
-
-**3. Operations: ITAM vs ITSM vs CMDB**
-* **ITAM:** Focuses on the asset lifecycle and cost. (Do we own it? Is it old?)
-* **ITSM:** Focuses on service and tickets. (Fixing a user's broken laptop.)
-* **CMDB:** Shows relationships. (If this Server goes down, which App will break?)
-
-
-**4. Security Tools**
-* **EDR:** The security guard on the laptop (e.g., CrowdStrike).
-* **XDR:** The full CCTV system for the whole network.
-* **CAASM (ApexaiQ):** The auditor who checks if the EDR is actually installed on every machine.
-
----
-
 ### ApexaiQ Specific Points
 * **ApexaiQ Score:** A security credit score (60-180). High is good.
 * **Normalize First/Last Seen:** Making sure timestamps from different tools match up.
@@ -83,6 +51,35 @@ Apart from the ones mentioned before, these are the main players in the CAASM/As
 
 ---
 
+### Core Research Topics
+
+**1. Cyber Assets & Discovery**
+* **Cyber Asset:** Anything with an IP or login—Laptops, S3 buckets, or User IDs.
+* **Asset Discovery:** Finding what's on the network.
+* **Attack Surface:** The total number of points where a hacker can enter.
+
+**2. Vulnerabilities & Remediation**
+* **CVE:** Unique ID for a bug.
+* **CPE:** Standard name for software/hardware.
+* **Remediation:** Actually fixing the bug (usually by patching).
+* **Non-CVE Vulns:** Risks without an ID, like weak passwords or out-of-date (EOL) software.
+* **CVSS (Common Vulnerability Scoring System):** The standard 0-10 score. Note: A "10" is bad, but it doesn't mean it’s being hacked *right now*.
+* **EPSS (Exploit Prediction Scoring System):** A probability score (0 to 1) that predicts if a bug will be exploited in the next 30 days. High EPSS is often more urgent than a high CVSS.
+* **CISA KEV (Known Exploited Vulnerabilities):** The US Govt's "Must-Fix" list. If a bug is on this list, it means hackers are already using it in the wild.
+* **SSVC (Stakeholder-Specific Vulnerability Categorization):** A decision tree used to decide action based on how much the asset matters to the business.
+
+**3. Operations: ITAM vs ITSM vs CMDB**
+* **ITAM:** Focuses on the asset lifecycle and cost. (Do we own it? Is it old?)
+* **ITSM:** Focuses on service and tickets. (Fixing a user's broken laptop.)
+* **CMDB:** Shows relationships. (If this Server goes down, which App will break?)
+
+
+**4. Security Tools**
+* **EDR:** The security guard on the laptop (e.g., CrowdStrike).
+* **XDR:** The full CCTV system for the whole network.
+* **CAASM (ApexaiQ):** The auditor who checks if the EDR is actually installed on every machine.
+
+---
 
 ### Research Tasks Checklist
 - [x] Understand why ApexaiQ is better than just using a CMDB.
