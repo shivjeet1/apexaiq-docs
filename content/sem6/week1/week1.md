@@ -65,7 +65,7 @@ Apart from the ones mentioned before, these are the main players in the CAASM/As
 * **Non-CVE Vulns:** Risks without an ID, like weak passwords or out-of-date (EOL) software.
 * **CVSS (Common Vulnerability Scoring System):** The standard 0-10 score. Note: A "10" is bad, but it doesn't mean it’s being hacked *right now*.
 * **EPSS (Exploit Prediction Scoring System):** A probability score (0 to 1) that predicts if a bug will be exploited in the next 30 days. High EPSS is often more urgent than a high CVSS.
-* **CISA KEV (Known Exploited Vulnerabilities):** The US Govt's "Must-Fix" list. If a bug is on this list, it means hackers are already using it in the wild.
+* **CISA(Cyber and Infrastructure Security Agency) KEV (Known Exploited Vulnerabilities):** The US Govt's "Must-Fix" list. If a bug is on this list, it means hackers are already using it in the wild.
 * **SSVC (Stakeholder-Specific Vulnerability Categorization):** A decision tree used to decide action based on how much the asset matters to the business.
 
 **3. Operations: ITAM vs ITSM vs CMDB**
@@ -75,9 +75,9 @@ Apart from the ones mentioned before, these are the main players in the CAASM/As
 
 
 **4. Security Tools**
-* **EDR:** The security guard on the laptop (e.g., CrowdStrike).
-* **XDR:** The full CCTV system for the whole network.
-* **CAASM (ApexaiQ):** The auditor who checks if the EDR is actually installed on every machine.
+* **EDR(Endpoint Detection & Response):** The security guard on the laptop (e.g., CrowdStrike).
+* **XDR(eXtended Detection & Response):** The full CCTV system for the whole network.
+* **CAASM(Cyber Asset Attack Surface Management** (ApexaiQ):** The auditor who checks if the EDR is actually installed on every machine.
 
 ---
 
