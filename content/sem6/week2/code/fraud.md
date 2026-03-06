@@ -56,7 +56,7 @@ batches concurrently.
   python detect.py
   ```
 
-> This program is a modified version of the [Parallel Fraud Detection Simulator](https://github.com/shivjeet1/apexaiq-docs/blob/master/content/sem6/week2/code/fraud.py).
+> This program is a modified version of the [Parallel Fraud Detection Simulator](https://github.com/shivjeet1/apexaiq-docs/blob/master/content/sem6/week2/code/detect.py).
 > This is used to detect fraud in a parallel environment.
 > This program implements the following :
   - OOPs
