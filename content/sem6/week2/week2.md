@@ -7,7 +7,6 @@ title: Week 2
 
 ## Learning Objectives
 
-- Learn the basics of Python
 - Learn the basics of the Python REPL
 - Learn the basics of Python syntax
 - Learn the basics of functions
