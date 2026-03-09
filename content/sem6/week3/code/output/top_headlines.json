@@ -1,0 +1,407 @@
+{
+  "country": "us",
+  "categories": [
+    "technology",
+    "business",
+    "science"
+  ],
+  "news_by_category": {
+    "technology": [
+      {
+        "source": {
+          "id": null,
+          "name": "Supercarblondie.com"
+        },
+        "author": "Henry Kelsall",
+        "title": "This pimped out 1000-hp Mercedes-Benz limo has absolutely massive turbos that are bigger than your face - supercarblondie.com",
+        "description": "This Mercedes-Benz limo not only drifts, but it has over 1,000hp and two turbochargers that are bigger than your face - and this content creator got to enjoy it",
+        "url": "https://supercarblondie.com/mercedes-benz-limo-1000hp-massive-turbos/",
+        "urlToImage": "https://supercarblondie.com/wp-content/uploads/Backfire-Brad-Mercedes-Limo-on-the-move.webp",
+        "publishedAt": "2026-03-08T02:07:00Z",
+        "content": "You would be forgiven for thinking a 1,000hp Mercedes-Benz limo is the stuff of pure fantasy, because that is exactly what it sounds like.\r\nHowever, far from being a dream, such a car does exist, aft\u2026 [+2190 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "9to5Mac"
+        },
+        "author": "Michael Burkhardt",
+        "title": "Apple\u2019s upcoming Mac desktops may cost more, but not for the reason you might think - 9to5Mac",
+        "description": "This week, Apple unveiled a plethora of new Macs with M5 chips \u2013 and it revealed an interesting new trend....",
+        "url": "https://9to5mac.com/2026/03/07/apple-m5-mac-mini-mac-studio-imac-might-get-more-expensive/",
+        "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/11/mac-studio-mini-m5.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "publishedAt": "2026-03-07T23:25:00Z",
+        "content": "This week, Apple unveiled a plethora of new Macs with M5 chips \u2013 and it revealed an interesting new trend. More base storage, but at slightly higher prices. This impacted the MacBook Air and MacBook \u2026 [+2980 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Digitalfoundry.net"
+        },
+        "author": "Oliver Mackenzie",
+        "title": "Review: Resident Evil 7 Shines On Switch 2, But Village Falls Short - Digital Foundry",
+        "description": "DLSS is once again the console's best friend.",
+        "url": "https://www.digitalfoundry.net/reviews/resident-evil-7-shines-on-switch-2-but-village-falls-short",
+        "urlToImage": "https://images.digitalfoundry.net/14a1302a7b3ea/large.jpg",
+        "publishedAt": "2026-03-07T22:46:41Z",
+        "content": "Oliver Mackenzie's RE7/RE Village Switch 2 review.\r\nSwitch 2 didn't just receive an impressive port of Resident Evil Requiem on February 27th: Capcom spoiled us with ports of Resident Evil 7 and Resi\u2026 [+5149 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Jalopnik"
+        },
+        "author": "Brad Brownell",
+        "title": "You Uncool Performative Dorks Drove Up The Price Of Porsches And It's Ruining The Vibe - Jalopnik",
+        "description": "These are explicitly driver's cars, not collector pieces to shuttle to a cars and coffee once a month. Stop being a dork and be cool instead.",
+        "url": "https://www.jalopnik.com/2117254/dorks-porsche-prices-ruining-vibe/",
+        "urlToImage": "https://www.jalopnik.com/img/gallery/you-uncool-performative-dorks-drove-up-the-price-of-porsches-and-its-ruining-the-vibe/l-intro-1772821862.jpg",
+        "publishedAt": "2026-03-07T22:05:00Z",
+        "content": "Cards on the table, I bought my 1997 Boxster for $7,500, my 1976 912E for $12,000, my 2001 911 Turbo for $32,000, and my 2013 Cayenne Diesel for $21,000. I\u00a0paid cash for all of them, and I don't give\u2026 [+1353 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Sammyfans.com"
+        },
+        "author": "Sheetal",
+        "title": "Some buyers return Samsung Galaxy S26 Ultra over screen issue - Sammy Fans",
+        "description": "Samsung launched the Galaxy S26 Ultra, a phone that comes with a new Privacy Display feature. This feature is meant to keep what\u2019s on your screen private, so people sitting next to you in public places can\u2019t see it. While it sounds useful, some buyers are ret\u2026",
+        "url": "https://www.sammyfans.com/2026/03/07/some-buyers-return-samsung-galaxy-s26-ultra-over-screen-issue/",
+        "urlToImage": "https://www.sammyfans.com/wp-content/uploads/2026/02/Samsung-galaxy-s26-ultra-ftrd-image-sg26u-privacy-display.jpg",
+        "publishedAt": "2026-03-07T21:03:50Z",
+        "content": "Samsung has raised the prices of many of its Galaxy smartphones in India. The new prices started on March 5, 2026. The increase affects several models from the Galaxy A, F, and M series.Samsung has i\u2026 [+1634 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Nintendoeverything.com"
+        },
+        "author": "Brian",
+        "title": "Dev says Nintendo is \"still pretty cagey about letting games launch on Switch 2\", doesn't want it to be \"a giant slop fest\" - Nintendo Everything",
+        "description": "Based on comments from New Blood Interactive\u2019s Dave Oshry, Nintendo is being careful with which games it\u2019s allowing on Switch 2. New Blood Interactive has development kits and even has a new version of Dusk ready to go, which runs at 120 FPS. However, they ha\u2026",
+        "url": "https://nintendoeverything.com/dev-says-nintendo-is-still-pretty-cagey-about-letting-games-launch-on-switch-2-dont-want-it-to-be-a-giant-slop-fest/",
+        "urlToImage": "https://nintendoeverything.com/wp-content/uploads/Switch-2-ports-New-Blood.jpg",
+        "publishedAt": "2026-03-07T21:01:13Z",
+        "content": "Based on comments from New Blood Interactive\u2019s Dave Oshry, Nintendo is being careful with which games it\u2019s allowing on Switch 2.\r\nNew Blood Interactive has development kits and even has a new version\u2026 [+1145 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hackaday"
+        },
+        "author": "Maya Posch",
+        "title": "The Tragic Demise Of The Technirama Prism-Based Anamorphic Lens - Hackaday",
+        "description": "Although to the average person a camera lens is just that bit of glass you stick on the front of the camera to make stuff appear in focus, there\u2019s a whole wide world out there of lens designs\u2026",
+        "url": "https://hackaday.com/2026/03/07/the-tragic-demise-of-the-technirama-prism-based-anamorphic-lens/",
+        "urlToImage": "https://hackaday.com/wp-content/uploads/2026/03/delrama_on_dslr_mathieu_stern_youtube.jpg",
+        "publishedAt": "2026-03-07T21:00:00Z",
+        "content": "A commercial Delrama prism-based anamorphic lens for large cameras. (Source: Mathieu Stern, YouTube)\r\nAlthough to the average person a camera lens is just that bit of glass you stick on the front of \u2026 [+1874 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "TheGamer"
+        },
+        "author": "Johnny Flores Jr.",
+        "title": "Despite New CEO's Teasing, Xbox Insider Says Exclusives Are \"Absolutely Not Happening\" - TheGamer",
+        "description": "It perhaps might be too late for the company to reverse course after taking a third-party approach.",
+        "url": "https://www.thegamer.com/xbox-microsoft-exclusive-status-new-ceo-not-happening/",
+        "urlToImage": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/03/white-xbox-logo-over-orange-waves.jpg?w=1600&h=900&fit=crop",
+        "publishedAt": "2026-03-07T20:56:58Z",
+        "content": "Despite previous indications from newly-minted Microsoft Gaming CEO Asha Sharma, who took over for Phil Spencer following his abrupt retirement, that exclusives could be returning to the Xbox brand, \u2026 [+2396 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "9to5Mac"
+        },
+        "author": "Michael Burkhardt",
+        "title": "Apple still has over a dozen products in the pipeline for 2026, here\u2019s what\u2019s coming - 9to5Mac",
+        "description": "Apple just wrapped up a very exciting week of announcements \u2013 starting off with iPhone 17e, and ending with MacBook...",
+        "url": "https://9to5mac.com/2026/03/07/apple-products-in-the-pipeline-for-2026-after-macbook-neo-launch/",
+        "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/10/tim-cook-apple-park-rainbow-bg.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+        "publishedAt": "2026-03-07T19:53:00Z",
+        "content": "Apple just wrapped up a very exciting week of announcements \u2013 starting off with iPhone 17e, and ending with MacBook Neo. While we did get 7 new products this week, theres still a fair bit in the pipe\u2026 [+3214 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Kotaku"
+        },
+        "author": "Ethan Gach",
+        "title": "The Division 2 Comes Roaring Back On Steam After Plummeting To $3 Bargain Bin Territory - Kotaku",
+        "description": "Ubisoft's aging loot shooter has a new lease on life thanks to a new mode and future updates",
+        "url": "https://kotaku.com/division-2-steam-sale-cheap-roadmap-update-2000676999",
+        "urlToImage": "https://kotaku.com/app/uploads/2026/03/division-2s-1200x675.jpg",
+        "publishedAt": "2026-03-07T19:43:26Z",
+        "content": "The Division 2 is having a mini-renaissance on Steam this weekend thanks to a massive discount and a recent roadmap outlining the game\u2019s future and all of the content still coming to Ubisoft\u2019s seven-\u2026 [+2910 chars]"
+      }
+    ],
+    "business": [
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Lexi Carson, McKinley Franklin",
+        "title": "Paramount Eyes Changes to Historic Studio Lot Following Warner Bros. Merger - The Hollywood Reporter",
+        "description": "The lot has hosted productions for films such as 'The Godfather,' 'Titanic' and the 'Mission: Impossible' franchise.",
+        "url": "http://www.hollywoodreporter.com/business/business-news/paramount-studio-lot-changes-warner-bros-merger-1236524430/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/paramount_studios_lot.jpg?w=1296&h=730&crop=1",
+        "publishedAt": "2026-03-08T00:30:14Z",
+        "content": "After it was announced that Paramount Skydance acquired\u00a0Warner Bros. Discovery last week, Hollywood is anticipating changes are coming. \r\nAnd in a reported piece from the Los Angeles Times, one of th\u2026 [+1917 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Investor's Business Daily"
+        },
+        "author": null,
+        "title": "Stock Market Rally Attempt Depends On Iran War, Oil's Next Move - Investor's Business Daily",
+        "description": "Oil prices spiked 36% for the week. Here's why they could still go a lot higher.",
+        "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-iran-war-news-crude-oil-prices-trump/",
+        "urlToImage": "https://www.investors.com/wp-content/uploads/2020/04/Stock-Oilbarrel-fire-05-adobe.jpg",
+        "publishedAt": "2026-03-07T22:02:00Z",
+        "content": "Information in Investors Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities. \u2026 [+1064 chars]"
+      },
+      {
+        "source": {
+          "id": "techcrunch",
+          "name": "TechCrunch"
+        },
+        "author": "Anthony Ha",
+        "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal - TechCrunch",
+        "description": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she\u2019s resigned from her role leading the company's robotics team.",
+        "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+        "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2206295463.jpg?resize=1200,800",
+        "publishedAt": "2026-03-07T20:44:25Z",
+        "content": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI\u2019s controversial agreement with the Department of Defense, shes resigned from her role leading the company\u2019s robotics t\u2026 [+2524 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Seattle Times"
+        },
+        "author": "Seattle Times staff",
+        "title": "Dick\u2019s joins viral CEO-eats-burger trend - The Seattle Times",
+        "description": "Burger chains everywhere, including in Seattle, are responding to a viral video by having their own CEOs eat burgers on camera.",
+        "url": "https://www.seattletimes.com/life/food-drink/dicks-joins-viral-ceo-eats-burger-trend/",
+        "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2025/01/01232025_tzr_tzr_195739.jpg?d=1200x630",
+        "publishedAt": "2026-03-07T20:30:57Z",
+        "content": "The fast food world has been extra spicy this week, ever since McDonald\u2019s CEO Chris Kempczinski got roasted for an awkward viral video where he takes a small, hesitant bite of a Big Arch burger and c\u2026 [+535 chars]"
+      },
+      {
+        "source": {
+          "id": "associated-press",
+          "name": "Associated Press"
+        },
+        "author": null,
+        "title": "Ford recalls 1.74 million of its cars over rearview display issues - AP News",
+        "description": "Ford has issued two recalls affecting nearly 1.74 million of its cars in the U.S., due to software issues impacting the vehicles\u2019 rearview camera displays that could increase crash risks. According to notices published by the National Highway Traffic Safety A\u2026",
+        "url": "https://apnews.com/article/ford-car-recall-rearview-camera-display-69a846973b55f00b8e7b584c7b25cd6b",
+        "urlToImage": "https://dims.apnews.com/dims4/default/dd91c7a/2147483647/strip/true/crop/7424x4947+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4f%2Fb6%2Fbe5a15340a5ade17e3a08f31938c%2F698056b7aa5b4ffc8aa16ad1ccb7a409",
+        "publishedAt": "2026-03-07T20:06:00Z",
+        "content": "NEW YORK (AP) Ford has issued two recalls affecting nearly 1.74 million of its cars in the U.S., due to software issues that impact the vehicles rearview camera displays.\r\nAccording to notices publis\u2026 [+1637 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Newsday"
+        },
+        "author": "James T. Madore",
+        "title": "How to cope with rising gas prices on Long Island - Newsday",
+        "description": "Experts told Newsday that motorists should maximize their mileage with vehicle maintenance and fewer trips with more stops.",
+        "url": "https://www.newsday.com/business/tips-to-save-on-gas-prices-bpgg5x21",
+        "urlToImage": "https://cdn.newsday.com/ace/c:MTZjMDE3ZTktZjk2NS00:OWM0MjM4OWEtNzJjZC00/landscape/1280",
+        "publishedAt": "2026-03-07T19:46:39Z",
+        "content": "Rising gasoline prices on Long Island are causing residents such as Marie Weiss to look for ways to lessen the impact.\r\nThe cost of gas has\u00a0jumped more than\u00a013%\u00a0since the Iran conflict disrupted the \u2026 [+2943 chars]"
+      },
+      {
+        "source": {
+          "id": "bloomberg",
+          "name": "Bloomberg"
+        },
+        "author": "Fiona MacDonald, Anthony Di Paola",
+        "title": "Kuwait Cuts Oil and Refining Output as Hormuz Transits Slow - Bloomberg.com",
+        "description": "The United Arab Emirates and Kuwait started reducing oil production, as the near-closure of the crucial Strait of Hormuz ripples through energy markets and affects global supply.",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-07/kuwait-cuts-oil-and-refining-output-as-hormuz-transits-slow",
+        "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSKdNA8NBsFI/v0/1200x802.jpg",
+        "publishedAt": "2026-03-07T19:14:20Z",
+        "content": "The United Arab Emirates and Kuwait started reducing oil production, as the near-closure of the crucial Strait of Hormuz ripples through energy markets and affects global supply. \r\nAbu Dhabi National\u2026 [+311 chars]"
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "thestreet.com",
+        "title": "Iconic department store closes more locations during bankruptcy - thestreet.com",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTDRvX0FqWnZLelJsWlpkZy1jVE93cTZhNGFEdXNKMXF4Nl9feW5VYjRRZlU2VVZIMDlkdnUwWGtGc05xd2ZUemdIQ1MwNVk0X2x4eV9PSE9lUVZzYlM5VE04U251Y1JFVWN5YWRIUkZvQkZXVTJGMlRScUFqVl91RUhDOXVSbDBDdUFYMW1jVjd0aHBs?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2026-03-07T18:17:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+        },
+        "author": "Evan Halper",
+        "title": "Gas prices are climbing fast as Trump\u2019s Iran conflict continues - The Washington Post",
+        "description": "Gas prices are increasing rapidly as President Donald Trump\u2019s military assault on Iran continues, forcing a potential shutdown of oil production in the region.",
+        "url": "https://www.washingtonpost.com/business/2026/03/07/gas-prices-increasing-iran-war/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2FPJGNA4434YKIDIZWUHRARGNM_size-normalized.jpg&w=1440",
+        "publishedAt": "2026-03-07T18:00:00Z",
+        "content": "Motorists and airline passengers across the United States and around the world are feeling the aftershocks of President Donald Trumps military intervention in Iran as fuel prices surge and market ana\u2026 [+42 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "WSB Atlanta"
+        },
+        "author": "WSBTV.com News Staff",
+        "title": "No credible threat after Southwest flight diverted to Atlanta: FBI - WSB-TV",
+        "description": "A Southwest Airlines flight diverted to Atlanta Friday night over a possible security concern, but investigators later determined there was no credible threat, according to the Federal Bureau of Investigation.",
+        "url": "https://www.wsbtv.com/news/local/atlanta/fbi-no-credible-threat-after-southwest-flight-diverted-atlanta/NLMPLP3VQJGYZKM2Q6L4AXBXF4/",
+        "urlToImage": "https://cmg-cmg-tv-10010-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2F7QYEKVPVBRGONFNVOBLHBWYVII.jpeg?auth=a2a01b67d8aabcc14d9b2fa9201a75386897e8a405e127e0da87853bff29b3a7&width=1200&height=630&smart=true",
+        "publishedAt": "2026-03-07T15:52:33Z",
+        "content": "ATLANTA \u2014 A Southwest Airlines flight diverted to Atlanta Friday night over a possible security concern, but investigators later determined there was no credible threat, according to the Federal Bure\u2026 [+1198 chars]"
+      }
+    ],
+    "science": [
+      {
+        "source": {
+          "id": null,
+          "name": "Phys.Org"
+        },
+        "author": "University of Helsinki",
+        "title": "Plant mitochondria actively pull oxygen from chloroplasts, researchers discover - Phys.org",
+        "description": "A new study from the University of Helsinki reveals how plant mitochondria draw molecular oxygen away from chloroplasts, an interaction not previously documented. The discovery sheds new light on how plants regulate oxygen inside their tissues, with implicati\u2026",
+        "url": "https://phys.org/news/2026-03-mitochondria-oxygen-chloroplasts.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-new-link-between-the-1.jpg",
+        "publishedAt": "2026-03-07T20:30:03Z",
+        "content": "A new study from the University of Helsinki reveals how plant mitochondria draw molecular oxygen away from chloroplasts, an interaction not previously documented. The discovery sheds new light on how\u2026 [+3608 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Live Science"
+        },
+        "author": "Ivan Farkas",
+        "title": "Enormous 3D map of the universe shows brilliant 'sea of light' near the cosmic dawn - Live Science",
+        "description": "A unique technique allowed astronomers to see the early universe as a \"sea of light\" and explore the effects of gravity and dark energy on cosmic evolution.",
+        "url": "https://www.livescience.com/space/astronomy/enormous-3d-map-of-the-universe-shows-brilliant-sea-of-light-near-the-cosmic-dawn",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/jbEKWr7ABfKa967KSZJFSH-1920-80.jpg",
+        "publishedAt": "2026-03-07T18:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Daily Galaxy --Great Discoveries Channel"
+        },
+        "author": "Melissa Ait Lounis",
+        "title": "Scientists Reveal That Neanderthals Weren\u2019t Just Survivors, They Had Food Traditions That Could Rival Modern Chefs! - The Daily Galaxy",
+        "description": "These tools may seem like ancient junk, but they\u2019re actually treasure maps to Neanderthal culture. What secrets do these stones hold?",
+        "url": "https://dailygalaxy.com/2026/03/neanderthals-had-food-traditions-discovery/",
+        "urlToImage": "https://dailygalaxy.com/wp-content/uploads/2026/03/Scientists-Reveal-That-Neanderthals-Werent-Just-Survivors-They-Had-Food-Traditions-That-Could-Rival-Modern-Chefs-scaled.jpg",
+        "publishedAt": "2026-03-07T17:45:00Z",
+        "content": "A new study reveals that Neanderthals living near each other in northern Israel didnt have the same approach to food preparation. Despite using similar tools and hunting the same animals, Neanderthal\u2026 [+2688 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Phys.Org"
+        },
+        "author": "Ingrid Fadelli",
+        "title": "'Superconducting dome' hints at high-temperature superconductivity in thin nickelate films - Phys.org",
+        "description": "Superconductivity is a quantum state of matter characterized by an electrical resistance of zero and the expulsion of magnetic fields at low temperatures below a critical point. Superconductors, materials in which this state occurs, have proved to be highly a\u2026",
+        "url": "https://phys.org/news/2026-03-superconducting-dome-hints-high-temperature.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/2026/hints-of-high-temperat.jpg",
+        "publishedAt": "2026-03-07T17:10:01Z",
+        "content": "Superconductivity is a quantum state of matter characterized by an electrical resistance of zero and the expulsion of magnetic fields at low temperatures below a critical point. Superconductors, mate\u2026 [+6349 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Indiandefencereview.com"
+        },
+        "author": "Emily Carter",
+        "title": "Scientists May Have Just Proven Earth\u2019s Real Age Thanks to Zircon Crystals, and It\u2019s Far Older Than We Imagined! - Indian Defence Review",
+        "description": "Zircon crystals have provided scientists with an invaluable tool for dating the Earth, revealing its true age to be around 4.54 billion years old.",
+        "url": "https://indiandefencereview.com/scientists-may-have-proven-earths-real-age/",
+        "urlToImage": "https://indiandefencereview.com/wp-content/uploads/2026/03/scientists-may-have-just-proven-earths-real-age-thanks-to-zircon-crystals-and-its-far-older-than-we-imagined-scaled.png",
+        "publishedAt": "2026-03-07T15:35:00Z",
+        "content": "The Earths true age has long been a topic of debate, with some ancient estimates placing it just a few thousand years old. However, scientific advancements have revealed much older ages for the plane\u2026 [+5000 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Daily Galaxy --Great Discoveries Channel"
+        },
+        "author": "Melissa Ait Lounis",
+        "title": "T. rex\u2019s Growth Took Longer Than Anyone Ever Imagined. Here\u2019s What Scientists Found - The Daily Galaxy",
+        "description": "T. rex might not have been the fast-growing predator we thought it was. A new study has turned everything we knew about this dinosaur\u2019s development upside down.",
+        "url": "https://dailygalaxy.com/2026/03/t-rex-growth-longer-than-expected/",
+        "urlToImage": "https://dailygalaxy.com/wp-content/uploads/2026/03/T.-rexs-Growth-Took-Longer-Than-Anyone-Ever-Imagined.-Heres-What-Scientists-Found-scaled.jpg",
+        "publishedAt": "2026-03-07T15:15:00Z",
+        "content": "For decades, scientists believed that Tyrannosaurus rex reached its full size by the age of 25. However, new research has revealed that the iconic dinosaur likely required more time to reach its mass\u2026 [+3123 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "FRANCE 24 English"
+        },
+        "author": "FRANCE 24",
+        "title": "NASA successfully kicks asteroid off course in Earth defence test - France 24",
+        "description": "NASA knocked an asteroid off course in 2022 in a pioneering test of humanity's ability to defend Earth. Its spacecraft's impact pushed the space rock into a slightly different orbit around the Sun, according to new research published Friday.",
+        "url": "https://www.france24.com/en/science/20260307-nasa-kicked-asteroid-off-course-test-earth-defences-against-space-rocks-dimorphos",
+        "urlToImage": "https://s.france24.com/media/display/6138d8f8-1a32-11f1-bdd3-005056bfb2b6/w:1280/p:16x9/000-33PG8WX.jpg",
+        "publishedAt": "2026-03-07T15:10:42Z",
+        "content": "Four years ago, NASA purposely smashed a spacecraft into a small asteroid to see if they could deflect it a test to prove humanity could protect Earth from threatening space rocks.\r\nThe experiment pu\u2026 [+2614 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Daily Galaxy --Great Discoveries Channel"
+        },
+        "author": "Melissa Ait Lounis",
+        "title": "Scientists Have Found A Siberian Mummy Like No Other, It\u2019s Covered in Tattoos! - The Daily Galaxy",
+        "description": "A mummified woman from Siberia holds an unexpected treasure, tattoos that have been preserved for over two millennia. What did they mean, and how were they created?",
+        "url": "https://dailygalaxy.com/2026/03/scientists-found-siberian-mummy-tattoos/",
+        "urlToImage": "https://dailygalaxy.com/wp-content/uploads/2026/03/Scientists-Have-Found-This-Siberian-Mummy-Like-No-Other-It-Has-Tattoos-scaled.jpg",
+        "publishedAt": "2026-03-07T13:45:00Z",
+        "content": "A woman who lived over 2,000 years ago in Siberia is giving us a fascinating look into the past, thanks to tattoos preserved on her mummified body. These intricate designs found on her hands and fore\u2026 [+2830 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "The Daily Galaxy --Great Discoveries Channel"
+        },
+        "author": "Sarah Jones",
+        "title": "Scientists Thought They Knew Everything About Venus' Winds, But It Turns Out They\u2019re Hiding Something Huge - The Daily Galaxy",
+        "description": "What scientists have uncovered about Venus could change the entire way we view the planet, but the full extent of this discovery is still unfolding.",
+        "url": "https://dailygalaxy.com/2026/03/venus-winds-are-hiding-something-huge/",
+        "urlToImage": "https://dailygalaxy.com/wp-content/uploads/2026/03/Scientists-Thought-They-Knew-Everything-About-Venus-Winds-But-It-Turns-Out-Theyre-Hiding-Something-Huge-scaled.jpg",
+        "publishedAt": "2026-03-07T12:45:00Z",
+        "content": "For decades, the surface of Venus has remained an enigma, hidden beneath thick clouds and extreme conditions that make direct exploration a daunting task. However, a recent study revealed surprising \u2026 [+3327 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Phys.Org"
+        },
+        "author": "Cornell University",
+        "title": "Study reveals new technique to identify individual night-flying birds for the first time - Phys.org",
+        "description": "Millions of birds invisibly migrate through the night sky each autumn, most flying in near silence toward their wintering grounds. Now, scientists have developed a way to see and identify many of those birds for the first time.",
+        "url": "https://phys.org/news/2026-03-reveals-technique-individual-night-flying.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/2026/study-reveals-new-tech.jpg",
+        "publishedAt": "2026-03-07T12:40:01Z",
+        "content": "Millions of birds invisibly migrate through the night sky each autumn, most flying in near silence toward their wintering grounds. Now, scientists have developed a way to see and identify many of tho\u2026 [+5780 chars]"
+      }
+    ]
+  },
+  "total_articles": 30
+}
