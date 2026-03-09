@@ -1,0 +1,60 @@
+{
+  "current_ip_location": {
+    "status": "success",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "MH",
+    "regionName": "Maharashtra",
+    "city": "Mumbai",
+    "zip": "400007",
+    "lat": 19.0748,
+    "lon": 72.8856,
+    "timezone": "Asia/Kolkata",
+    "isp": "Shri Gajanan Maharaj College of Engineering",
+    "org": "NIXI",
+    "as": "AS150638 SHRI GAJANAN MAHARAJ COLLEGE OF ENGINEERING",
+    "query": "103.127.35.2"
+  },
+  "batch_lookup_results": [
+    {
+      "status": "success",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "VA",
+      "regionName": "Virginia",
+      "city": "Ashburn",
+      "lat": 39.03,
+      "lon": -77.5,
+      "timezone": "America/New_York",
+      "isp": "Google LLC",
+      "query": "8.8.8.8"
+    },
+    {
+      "status": "success",
+      "country": "Australia",
+      "countryCode": "AU",
+      "region": "QLD",
+      "regionName": "Queensland",
+      "city": "South Brisbane",
+      "lat": -27.4766,
+      "lon": 153.0166,
+      "timezone": "Australia/Brisbane",
+      "isp": "Cloudflare, Inc",
+      "query": "1.1.1.1"
+    },
+    {
+      "status": "success",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "CA",
+      "regionName": "California",
+      "city": "San Jose",
+      "lat": 37.4084,
+      "lon": -121.954,
+      "timezone": "America/Los_Angeles",
+      "isp": "Cisco OpenDNS, LLC",
+      "query": "208.67.222.222"
+    }
+  ],
+  "total_lookups": 3
+}
