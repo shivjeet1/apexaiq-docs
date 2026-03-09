@@ -1,0 +1,201 @@
+{
+  "analyzed_repositories": [
+    [
+      "shivjeet1",
+      "apexaiq-docs"
+    ],
+    [
+      "torvalds",
+      "linux"
+    ],
+    [
+      "python",
+      "cpython"
+    ]
+  ],
+  "analysis": {
+    "shivjeet1/apexaiq-docs": {
+      "stats": {
+        "name": "apexaiq-docs",
+        "full_name": "shivjeet1/apexaiq-docs",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "created_at": "2025-09-22T11:28:44Z",
+        "updated_at": "2026-03-09T02:49:26Z"
+      },
+      "contributors": [
+        {
+          "login": "shivjeet1",
+          "contributions": 82,
+          "avatar_url": "https://avatars.githubusercontent.com/u/166286425?v=4"
+        }
+      ],
+      "languages": {
+        "Python": 79081,
+        "Shell": 2771,
+        "CSS": 2108,
+        "HTML": 1635,
+        "JavaScript": 950,
+        "Ruby": 222
+      },
+      "recent_commits": [
+        {
+          "sha": "5c0c3a2",
+          "author": "shivjeet1",
+          "message": "initial setup",
+          "date": "2026-03-09T02:49:16Z"
+        },
+        {
+          "sha": "be53192",
+          "author": "shivjeet1",
+          "message": "adding week3 md",
+          "date": "2026-03-07T01:42:40Z"
+        },
+        {
+          "sha": "e9d5c9f",
+          "author": "shivjeet1",
+          "message": "updated week2",
+          "date": "2026-03-06T07:06:51Z"
+        },
+        {
+          "sha": "22be942",
+          "author": "shivjeet1",
+          "message": "updating md for more",
+          "date": "2026-03-06T07:31:36Z"
+        },
+        {
+          "sha": "b54f0f7",
+          "author": "shivjeet1",
+          "message": "updated week2",
+          "date": "2026-03-06T07:06:51Z"
+        }
+      ]
+    },
+    "torvalds/linux": {
+      "error": "403 Client Error: Forbidden for url: https://api.github.com/repos/torvalds/linux/contributors?per_page=10"
+    },
+    "python/cpython": {
+      "stats": {
+        "name": "cpython",
+        "full_name": "python/cpython",
+        "description": "The Python programming language",
+        "stars": 71896,
+        "forks": 34202,
+        "language": "Python",
+        "created_at": "2017-02-10T19:23:51Z",
+        "updated_at": "2026-03-09T02:25:30Z"
+      },
+      "contributors": [
+        {
+          "login": "gvanrossum",
+          "contributions": 11274,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2894642?v=4"
+        },
+        {
+          "login": "vstinner",
+          "contributions": 6629,
+          "avatar_url": "https://avatars.githubusercontent.com/u/194129?v=4"
+        },
+        {
+          "login": "benjaminp",
+          "contributions": 5877,
+          "avatar_url": "https://avatars.githubusercontent.com/u/219470?v=4"
+        },
+        {
+          "login": "birkenfeld",
+          "contributions": 5680,
+          "avatar_url": "https://avatars.githubusercontent.com/u/144359?v=4"
+        },
+        {
+          "login": "freddrake",
+          "contributions": 5465,
+          "avatar_url": "https://avatars.githubusercontent.com/u/588792?v=4"
+        },
+        {
+          "login": "serhiy-storchaka",
+          "contributions": 5267,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3659035?v=4"
+        },
+        {
+          "login": "rhettinger",
+          "contributions": 4567,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1623689?v=4"
+        },
+        {
+          "login": "pitrou",
+          "contributions": 3781,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1721820?v=4"
+        },
+        {
+          "login": "jackjansen",
+          "contributions": 2978,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4665100?v=4"
+        },
+        {
+          "login": "loewis",
+          "contributions": 2772,
+          "avatar_url": "https://avatars.githubusercontent.com/u/74179?v=4"
+        }
+      ],
+      "languages": {
+        "Python": 39253822,
+        "C": 22730854,
+        "C++": 444056,
+        "M4": 273656,
+        "HTML": 182904,
+        "JavaScript": 87325,
+        "Shell": 86175,
+        "Batchfile": 79984,
+        "CSS": 66850,
+        "Makefile": 37179,
+        "Objective-C": 34436,
+        "Roff": 29175,
+        "Common Lisp": 24579,
+        "PLSQL": 22886,
+        "PowerShell": 20323,
+        "Rich Text Format": 6905,
+        "Kotlin": 4430,
+        "Assembly": 3224,
+        "DTrace": 2196,
+        "XSLT": 1174,
+        "TypeScript": 1119,
+        "CMake": 419,
+        "VBScript": 70
+      },
+      "recent_commits": [
+        {
+          "sha": "0156133",
+          "author": "Hood Chatham",
+          "message": "gh-145219: Add Emscripten cross-build and clean configurability (#145581)\n\nModifies the Emscripten build script to allow for custom cross-build directory\nnames, and to only clean Emscripten-specific paths (optionally including the\nbuild python).\n\nCo-authored-by: Russell Keith-Magee <russell@keith-magee.com>",
+          "date": "2026-03-09T02:25:21Z"
+        },
+        {
+          "sha": "5a15a52",
+          "author": "James",
+          "message": "gh-145642: Docs: Avoid warning for invalid escape sequence in tutorial (#145643)\n\n* Match tutorial output to real interpreter output\n\n* Avoid invalid escape sequence in example\n\nCo-authored-by: Ned Batchelder <ned@nedbatchelder.com>\n\n---------\n\nCo-authored-by: Ned Batchelder <ned@nedbatchelder.com>",
+          "date": "2026-03-08T22:41:47Z"
+        },
+        {
+          "sha": "149c465",
+          "author": "Hugo van Kemenade",
+          "message": "Fix bug notifier for issues with no body text (#145603)",
+          "date": "2026-03-07T14:53:13Z"
+        },
+        {
+          "sha": "2cf6b2c",
+          "author": "Ramin Farajpour Cami",
+          "message": "gh-145623: Fix crashes on uninitialized struct.Struct objects (gh-145624)",
+          "date": "2026-03-07T13:31:45Z"
+        },
+        {
+          "sha": "0aeaaaf",
+          "author": "Pieter Eendebak",
+          "message": "gh-145376: Fix refleak in `queuemodule.c` out-of-memory path (#145543)",
+          "date": "2026-03-07T09:05:08Z"
+        }
+      ]
+    }
+  }
+}
