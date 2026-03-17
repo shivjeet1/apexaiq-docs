@@ -1,0 +1,27 @@
+{
+  "analyzed_repositories": [
+    [
+      "shivjeet1",
+      "apexaiq-docs"
+    ],
+    [
+      "torvalds",
+      "linux"
+    ],
+    [
+      "python",
+      "cpython"
+    ]
+  ],
+  "analysis": {
+    "shivjeet1/apexaiq-docs": {
+      "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/shivjeet1/apexaiq-docs (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    "torvalds/linux": {
+      "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/torvalds/linux (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    "python/cpython": {
+      "error": "HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/python/cpython (Caused by NameResolutionError(\"HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    }
+  }
+}

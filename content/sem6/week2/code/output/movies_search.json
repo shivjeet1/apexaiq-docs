@@ -1,0 +1,71 @@
+{
+  "search_query": "The Kashmir Files",
+  "total_results": 2,
+  "detailed_movies": [
+    {
+      "Title": "The Kashmir Files",
+      "Year": "2022",
+      "Rated": "Not Rated",
+      "Released": "11 Mar 2022",
+      "Runtime": "170 min",
+      "Genre": "Drama",
+      "Director": "Vivek Agnihotri",
+      "Writer": "Vivek Agnihotri, Saurabh M. Pandey",
+      "Actors": "Mithun Chakraborty, Anupam Kher, Darshan Kumaar",
+      "Plot": "The story revolves around Krishna Pandit (Darshan Kumar), a JNU student, who thinks his parents were killed in an accident as told by his grandfather, Pushkar Nath (Anupam Kher). But the truth is more depressing. He is caught in the middle of two opposing narratives of the Kashmiri Pandit exodus of 1990. One side is represented by the pro-Azaadi JNU professor (Pallavi Joshi) who is gaining a lot of support on the campus for her Kashmir cause. On the other side is Nath, who has been struggling for 30 years to get justice for the exodus, which the professor claims is a sham. After Pushkar Naths death, Krishna goes back to Kashmir to fulfil his last wishes and also meets four of Naths friends, a journalist, a doctor, a former police officer, and a retired civil servant. They are shocked to know that Krishna didnt know the true story of his fathers death. The Kashmir Files then becomes a journey of discovering the truth for Krishna. In one among many traumatic scenes, Krishnas father, hiding in a container of rice, is killed by a local terrorist. His mother is forced to eat the blood-soaked rice from the same container.",
+      "Language": "Hindi",
+      "Country": "India",
+      "Awards": "12 wins & 27 nominations",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTUwZTNjY2MtNmRjOC00YmI1LThlNWUtZTFkMDgzNTc5ODAwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "40%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.6",
+      "imdbVotes": "575,455",
+      "imdbID": "tt10811166",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "$1,485,000",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Kashmir Files Unreported",
+      "Year": "2023\u2013",
+      "Rated": "N/A",
+      "Released": "11 Aug 2023",
+      "Runtime": "N/A",
+      "Genre": "Documentary",
+      "Director": "N/A",
+      "Writer": "Vivek Agnihotri, Pallavi Joshi",
+      "Actors": "Vivek Agnihotri, Pallavi Joshi",
+      "Plot": "The real-life anecdotes, survivor testimonies, archived footage and geopolitical details about the events that led to exodus and massacre of Kashmiri Pandits in the 1990s. Thus the circumstances that led to the abolition of Articl...",
+      "Language": "N/A",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDY0ZTI3OWEtN2UyNi00MjBlLWE2NTgtNWFjNzlhOWE4MTllXkEyXkFqcGdeQXVyMTY1OTgwMDAx._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.4",
+      "imdbVotes": "688",
+      "imdbID": "tt28443585",
+      "Type": "series",
+      "totalSeasons": "1",
+      "Response": "True"
+    }
+  ]
+}

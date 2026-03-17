@@ -1,0 +1,178 @@
+{
+  "Mumbai": {
+    "coord": {
+      "lon": 72.8479,
+      "lat": 19.0144
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 28.47,
+      "feels_like": 28.25,
+      "temp_min": 28.47,
+      "temp_max": 28.47,
+      "pressure": 1011,
+      "humidity": 42,
+      "sea_level": 1011,
+      "grnd_level": 1011
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.6,
+      "deg": 46,
+      "gust": 2.73
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1773024007,
+    "sys": {
+      "country": "IN",
+      "sunrise": 1773019332,
+      "sunset": 1773062192
+    },
+    "timezone": 19800,
+    "id": 1275339,
+    "name": "Mumbai",
+    "cod": 200
+  },
+  "Amravati": {
+    "coord": {
+      "lon": 77.75,
+      "lat": 20.9333
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 28.45,
+      "feels_like": 27,
+      "temp_min": 28.45,
+      "temp_max": 28.45,
+      "pressure": 1014,
+      "humidity": 17,
+      "sea_level": 1014,
+      "grnd_level": 975
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.97,
+      "deg": 52,
+      "gust": 4.34
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1773024220,
+    "sys": {
+      "country": "IN",
+      "sunrise": 1773018196,
+      "sunset": 1773060975
+    },
+    "timezone": 19800,
+    "id": 1278718,
+    "name": "Amr\u0101vati",
+    "cod": 200
+  },
+  "Akola": {
+    "coord": {
+      "lon": 77,
+      "lat": 20.7333
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 28.34,
+      "feels_like": 26.92,
+      "temp_min": 28.34,
+      "temp_max": 28.34,
+      "pressure": 1013,
+      "humidity": 17,
+      "sea_level": 1013,
+      "grnd_level": 981
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.42,
+      "deg": 81,
+      "gust": 1.76
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1773024381,
+    "sys": {
+      "country": "IN",
+      "sunrise": 1773018372,
+      "sunset": 1773061160
+    },
+    "timezone": 19800,
+    "id": 1279105,
+    "name": "Akola",
+    "cod": 200
+  },
+  "Shegaon": {
+    "coord": {
+      "lon": 76.6833,
+      "lat": 20.7833
+    },
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 28.25,
+      "feels_like": 26.87,
+      "temp_min": 28.25,
+      "temp_max": 28.25,
+      "pressure": 1013,
+      "humidity": 18,
+      "sea_level": 1013,
+      "grnd_level": 982
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.36,
+      "deg": 113,
+      "gust": 1.38
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1773024329,
+    "sys": {
+      "country": "IN",
+      "sunrise": 1773018449,
+      "sunset": 1773061235
+    },
+    "timezone": 19800,
+    "id": 1256620,
+    "name": "Shegaon",
+    "cod": 200
+  }
+}

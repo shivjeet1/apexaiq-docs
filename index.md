@@ -12,6 +12,8 @@ My docs and scripts from the internship.
 * [week 1 docs](./content/sem6/week1/week1.html)
 * [week 2 docs](./content/sem6/week2/week2.html)
   * [Parallel Fraud Detection Simulator](./content/sem6/week2/code/fraud.html)
+* [week 3 docs](./content/sem6/week3/week3.html)
+  * [REST API](./content/sem6/week3/code/rest.html)
 
 
 ## Third year - Semester 5
