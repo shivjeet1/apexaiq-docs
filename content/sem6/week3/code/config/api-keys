@@ -1,9 +1,0 @@
-# API Keys Configuration
-# Name this file as .env relative to the scripts
-
-OPENWEATHER_API_KEY=your_openweather_api_key_here
-OMDB_API_KEY=your_omdb_api_key_here
-NEWSAPI_KEY=your_newsapi_key_here
-EXCHANGE_RATE_API_KEY=your_exchange_rate_api_key_here
-COINGECKO_API_KEY=your_coingecko_api_key_here
-GITHUB_TOKEN=your_github_token_here
