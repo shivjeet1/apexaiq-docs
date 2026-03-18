@@ -125,7 +125,7 @@ docker -v
 You should now be able to see Docker Version as output in your terminal.
 
 ***Output***
-- ![docker-version](../../assets/images/docker-version.png)
+- ![docker-version](../../../../assets/images/docker-version.png)
 
 #### 6. Run Hello World 
 
@@ -139,7 +139,7 @@ docker run hello-world
 The installation was successful, you will see a message beginning with "Hello from Docker!". You now have a fully functional Docker setup on your Arch Linux machine.
 
 ***Output***
-- ![docker-output](../../assets/images/docker.png)
+- ![docker-output](../../../../assets/images/docker.png)
 
 ---
 
