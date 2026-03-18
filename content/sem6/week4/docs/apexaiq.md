@@ -20,6 +20,7 @@ bundle install
 python stuff:
 
 ```bash
+python -m venv jadu
 source jadu/bin/activate
 pip install -r requirements.txt
 
