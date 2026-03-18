@@ -16,7 +16,7 @@ My docs and scripts from the internship.
 * [week 3 docs](./content/sem6/week3/week3.html)
   * [JavaScript Fundamentals](./content/sem6/week3/code/code.html)
 * [week 4 docs](./content/sem6/week4/week4.html)
-  * [Docker Installation on Archlinux](./content/sem6/week4/week4.html)
+  * [Docker Installation on Archlinux](./content/sem6/week4/docs/week4s1.html)
 
 
 ## Third year - Semester 5
