@@ -1,0 +1,19 @@
+
+services:
+  jekyll:
+    build: .
+    image: apexaiq-docs:latest
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - /srv/jekyll/vendor
+      - /srv/jekyll/.bundle
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_APP_CONFIG=/tmp/.bundle
+      - HOME=/tmp 
+    user: "${UID}:${GID}"
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling
+
+
